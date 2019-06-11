@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": ">=0.18.1",
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
     "vue-codemirror": "^4.0.6",
@@ -23,7 +23,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "webpack-bundle-analyzer": ">=3.3.2"
   },
   "eslintConfig": {
     "root": true,
